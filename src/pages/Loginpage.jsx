@@ -10,7 +10,7 @@ export default function LoginPage() {
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
   const navigate = useNavigate();
 
-  // Redirect user if already authenticated
+  
   useEffect(() => {
     if (isAuthenticated) {
       navigate("/logpage");
@@ -20,7 +20,7 @@ export default function LoginPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     login(user, pass); 
-    // Redirection happens in useEffect, not immediately after login
+ 
   };
 
   return (
