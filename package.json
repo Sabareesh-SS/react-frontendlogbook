@@ -1,5 +1,6 @@
 {
   "name": "react-frontendlogbook",
+  "private": "true",
   "homepage":"https://Sabareesh-SS.github.io/react-frontendlogbook/",
   "version": "0.0.0",
   "type": "module",
